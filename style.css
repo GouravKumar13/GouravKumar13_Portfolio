@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@700&family=Roboto+Mono&family=Unbounded:wght@700&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding: 0px;
+}
+
+:root{
+   --nav-footer-color:#00B0FF;
+   --shadow-box:#faf6eb;
+   
+}
+body{
+
+}
+h1 ,h2{
+    font-family: 'Unbounded', cursive;
+}
+p , li{
+    font-family: 'Roboto Mono', monospace;
+
+}
+.container{
+    margin: auto;
+    
+    justify-content: center;
+    /* border: 2px solid black; */
+
+    text-align: center;
+    max-width: 1000px;
+}
+
+/* nav-bar-section */
+nav{
+    background-color: var(--nav-footer-color);
+    height: 90px;
+    border-bottom-left-radius: 30px;
+     
+}
+nav div li{
+ text-align:start;
+ padding: 2px !important;
+ margin-left: 10px;
+
+}
+nav ul{
+    display: flex;
+    justify-content: right;
+    margin-right: 100px;
+}
+nav li{
+    list-style: none;
+    padding: 20px;
+    
+}
+/* image section  */
+header{
+    margin: 50px !important;
+}
+header img{
+    
+    height: 400px;
+}
+
+header h1 span{
+    color: var(--nav-footer-color);
+}
+
+/* technology section  */
+.shadow {
+    background-color: var(--shadow-box);
+}
+ .box-size{
+    height: 200px;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+    
+ }
+
+ .headdings{
+    padding: 10px;
+ }
+button{
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+.blue-bg{
+    background-color: var(--nav-footer-color);
+    color: white;
+    border: none;
+}
+.hole{
+    border: 1px solid var(--nav-footer-color);
+    color: var(--nav-footer-color);
+
+}
+
+/* footer  */
+footer{
+    
+    background-color: var(--nav-footer-color);
+    height: 50px;
+    border-top-right-radius: 30px;
+
+}
+
+
+footer i{
+    padding: 25px 30px 0 30px;
+
+
+}
