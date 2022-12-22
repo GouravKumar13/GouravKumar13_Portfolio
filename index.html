@@ -11,21 +11,25 @@
 </head>
 
 <body>
-
+    <!-- nav bar -->
     <div class="container">
-        <nav >
+        <nav id="navbar">
             <div>
 
                 <li>Iamdeveloper</li>
             </div>
             <UL>
-                <li onclick="window.Location.href='blog.html';">home</li>
+                <a href="/index.html">HOME</a>
+                <a href="/projects.html" target="_blank">PROJECTS</a>
+                <a href="/blog.html" target="_blank">BLOGS</a>
+                <!-- <li >home</li>
                 <li>project</li>
-                <li>blogs</li>
+                <li>blogs</li> -->
             </UL>
 
         </nav>
     </div>
+    <!-- image section  -->
     <div class="container">
         <header >
 
@@ -34,32 +38,36 @@
 
         </header>
     </div>
+    <!-- skills section  -->
     <div class="container">
         <section class=" shadow box-size">
-
+            
             <h2 class="headdings">technologies</h2>
             <p>I'm familiar with HTML5,Git, JavaScript, and more will be added</p>
-
+            
         </section>
     </div>
+    <!-- project section  -->
     <div class="container">
-        <section>
-            <div class=" box-size">
+        <section class=" shadow box-size">
+            <div >
                 <h2 class="headdings">projects</h2>
                 <p>I like to showcase my work and thus, you can see my project hosted online</p>
-                <button class="blue-bg"> see project</button>
+                <button class="blue-bg"><a href="/projects.html" target="_blank">See projects</a></button>
             </div>
         </section>
     </div>
+    <!-- blogs section  -->
     <div class="container">
         <section class=" shadow box-size">
 
             <h2 class="headdings">blogs</h2>
             <p>I am also working on some tecnical and non-techincal blogs. I like to document my journey of learning</p>
-            <button class="hole" onclick= "window.location.href = 'https://www.geeksforgeeks.org/how-to-create-an-html-button-that-acts-like-a-link/';">Read Blogs</button>
+            <button class="blue-bg"><a href="/blog.html" target="_blank">Read Blogs</a></button>
 
         </section>
     </div>
+    <!-- footers section  -->
     <div class="container">
         <footer >
 
